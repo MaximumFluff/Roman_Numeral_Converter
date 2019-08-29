@@ -1,0 +1,32 @@
+.main {
+  margin: 0 auto;
+  text-align: center;
+  background-color: gray;
+  margin-top: 50px;
+  padding-top: 50px;
+  width: 25%;
+  height: 600px;
+  border-radius: 25px;
+}
+
+#result {
+  color: rgb(211, 211, 211);
+  margin-top: 25px;
+  font-size: 35px;
+}
+
+button, input {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1500px) {
+  .main {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .main {
+    width: 70%;
+  }
+}
