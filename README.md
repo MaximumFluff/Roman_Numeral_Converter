@@ -1,5 +1,6 @@
 # Backend
 ### Build the docker image
+Run this commands inside the backend folder, will require Docker installed on your computer
 `docker build -t roman_numeral_calculator .`
 ### Run the image
 `docker run -p 3000:8000 -d roman_numeral_calculator`
